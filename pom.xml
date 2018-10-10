@@ -22,7 +22,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<modules>
-		<module>CreationalPatterns</module>
-	</modules>
 </project>
