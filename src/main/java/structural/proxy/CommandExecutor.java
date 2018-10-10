@@ -1,4 +1,4 @@
-package com.structural.proxy;
+package structural.proxy;
 
 public interface CommandExecutor {
 

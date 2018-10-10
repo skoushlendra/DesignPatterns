@@ -1,4 +1,4 @@
-package com.structural.decorator;
+package structural.decorator;
 
 public class CarDecorator implements Car {
 
@@ -8,7 +8,6 @@ public class CarDecorator implements Car {
 		this.car=c;
 	}
 	
-	@Override
 	public void assemble() {
 		this.car.assemble();
 	}

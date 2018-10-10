@@ -1,11 +1,10 @@
-package com.structural.proxy;
+package structural.proxy;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 public class CommandExecutorImpl implements CommandExecutor {
 
-	@Override
 	public void runCommand(String cmd) throws IOException {
 		Process process = Runtime.getRuntime().exec(cmd);
 		InputStream is = process.getInputStream();

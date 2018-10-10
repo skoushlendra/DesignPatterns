@@ -1,4 +1,4 @@
-package com.structural.proxy;
+package structural.proxy;
 
 public class CommandExecutorProxy implements CommandExecutor {
 
@@ -12,7 +12,6 @@ public class CommandExecutorProxy implements CommandExecutor {
 		executor = new CommandExecutorImpl();
 	}
 
-	@Override
 	public void runCommand(String cmd) throws Exception {
 		if (isAdmin) {
 			executor.runCommand(cmd);

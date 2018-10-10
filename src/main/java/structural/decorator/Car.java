@@ -1,4 +1,4 @@
-package com.structural.decorator;
+package structural.decorator;
 
 public interface Car {
 	public void assemble();

@@ -1,4 +1,4 @@
-package com.behavioral.mediator;
+package behavioral.mediator;
 
 public class UserImpl extends User {
 

@@ -1,4 +1,4 @@
-package com.behavioral.mediator;
+package behavioral.mediator;
 
 public abstract class User {
 	protected ChatMediator mediator;
